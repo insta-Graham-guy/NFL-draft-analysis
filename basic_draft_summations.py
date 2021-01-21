@@ -42,7 +42,8 @@ class NFL_draft_analysis():
         #Visual bargraph for top 30 Colleges and number of pro-bowl appearances they produce
         df_univ_PB = df_top_univ['PB']
         univ_plot = df_univ_PB.plot(kind="barh", fontsize=4)
-        univ_plot.set_xlabel("Pro bowl appearances in NFL")
+        univ_plot.set_xlabel("Pro bowl appearances")
+        univ_plot.set_title("PRO BOWL APPEARANCES, BY COLLEGE/UNIVERSITY, 2010-2020")
         plt.show()
         
         return
@@ -61,6 +62,7 @@ class NFL_draft_analysis():
         df_team1 = df_team['PB']
         team_plot = df_team1.plot(kind="barh", fontsize=4)
         team_plot.set_xlabel("Pro bowl appearances")
+        team_plot.set_title("PRO BOWL APPEARANCES, BY NFL DRAFTING TEAM, 2010-2020")
         plt.show()
         
         #return the new df(by team)
