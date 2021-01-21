@@ -6,3 +6,6 @@ Files included:
 
 2) basic_draft_summations.py -> makes a new dataframe with pandas, and basic overview of the data using pandas groupby functions.  Also includes matplotlib.pyplot to provide two different barh graphs to illustrate number of NFL pro bowl appearances by each grouping.
 
+First graph: display of top 30 colleges for pro bowl appearancesin NFL (code to obtain graph is in basic_draft_summations.py)
+![Figure_1](https://user-images.githubusercontent.com/70147377/105376712-09c68200-5bd8-11eb-9fe7-9af3ba1c6657.png)
+
